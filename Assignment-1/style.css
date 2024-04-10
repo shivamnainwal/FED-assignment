@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#cart img {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    padding-left: 1350px;
+
+}
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    /* margin-left: 0; */
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: -10%;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#dosa img {
+    height: 200px;
+    width: 200px;
+}
+
+#chaap img {
+    height: 200px;
+    width: 200px;
+}
+
+#momos img {
+    height: 200px;
+    width: 200px;
+}
+.small-div{
+    border: 2px  solid black;
+}
+.hide{
+    display: none;
+}
